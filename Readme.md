@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/WindowsApplication41/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication41/Form1.vb))
+* [Program.cs](./CS/WindowsApplication41/Program.cs) (VB: [Program.vb](./VB/WindowsApplication41/Program.vb))
+* [RatingControl.cs](./CS/WindowsApplication41/RatingControl.cs) (VB: [RatingControlViewInfo.vb](./VB/WindowsApplication41/RatingControlViewInfo.vb))
+* [RatingControlInfoArgs.cs](./CS/WindowsApplication41/RatingControlInfoArgs.cs) (VB: [RatingControlInfoArgs.vb](./VB/WindowsApplication41/RatingControlInfoArgs.vb))
+* [RatingControlPainter.cs](./CS/WindowsApplication41/RatingControlPainter.cs) (VB: [RatingControlPainter.vb](./VB/WindowsApplication41/RatingControlPainter.vb))
+* [RatingControlViewInfo.cs](./CS/WindowsApplication41/RatingControlViewInfo.cs) (VB: [RatingControlViewInfo.vb](./VB/WindowsApplication41/RatingControlViewInfo.vb))
+* [RepositoryItemRatingControl.cs](./CS/WindowsApplication41/RepositoryItemRatingControl.cs) (VB: [RepositoryItemRatingControl.vb](./VB/WindowsApplication41/RepositoryItemRatingControl.vb))
+<!-- default file list end -->
 # How to create an inplace Rating Control
 
 

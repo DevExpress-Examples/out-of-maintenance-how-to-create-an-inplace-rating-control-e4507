@@ -252,8 +252,8 @@ Public Class RepositoryItemRatingControl
 		val = Math.Min(val, Maximum)
 		Return val
 	End Function
-	Public Overrides Function GetBrick(ByVal info As PrintCellHelperInfo) As IVisualBrick
-		Dim brick As IProgressBarBrick = CType(MyBase.GetBrick(info), IProgressBarBrick)
+	Public Overrides Function GetBrick(ByVal info As PrintCellHelperInfo) As VisualBrick
+		Dim brick As ProgressBarBrick = CType(MyBase.GetBrick(info), ProgressBarBrick)
 		brick.Position = ConvertValue(info.EditValue)
 		Return brick
 	End Function

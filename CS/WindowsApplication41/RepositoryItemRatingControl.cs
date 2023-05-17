@@ -192,8 +192,8 @@ public class RepositoryItemRatingControl : RepositoryItem {
         val = Math.Min(val, Maximum);
         return val;
     }
-    public override IVisualBrick GetBrick(PrintCellHelperInfo info) {
-        IProgressBarBrick brick = (IProgressBarBrick)base.GetBrick(info);
+    public override VisualBrick GetBrick(PrintCellHelperInfo info) {
+        ProgressBarBrick brick = (ProgressBarBrick)base.GetBrick(info);
         brick.Position = ConvertValue(info.EditValue);
         return brick;
     }
